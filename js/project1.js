@@ -8,7 +8,7 @@ arr.forEach((product)=>{
     productHTML+=`<div class="product-container">
           <div class="product-image-container">
             <img class="product-image"
-              src="${product.img}">
+              src="${product.img}" loading="lazy">
           </div>
 
           <div class="product-name limit-text-to-2-lines">
@@ -17,7 +17,7 @@ arr.forEach((product)=>{
 
           <div class="product-rating-container">
             <img class="product-rating-stars"
-              src="${product.rating}">
+              src="${product.rating}" loading="lazy">
           </div>
 
           <div class="product-price">
